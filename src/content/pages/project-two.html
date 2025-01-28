@@ -1,5 +1,5 @@
 ---
-title: 'Project Two | Code Stitch Web Designs'
+title: 'Project two | BetterWebsite.ai Designs'
 description: 'Meta description for the page'
 preloadImg: '/assets/images/cabinets2.jpg'
 permalink: 'project-two/'
@@ -12,92 +12,115 @@ eleventyNavigation:
 {% extends "layouts/base.html" %}
 
 {% block head %}
-    <link rel="stylesheet" href="/assets/css/projects.css">
+    <link rel="stylesheet" href="/assets/css/services.css">
 {% endblock %}
 
 {% block body %}
 
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
+    
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">Project Two Gallery</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
-        </picture>
-    </section>
+<div id="banner-1402">
+    <div class="cs-container">
+        <span class="cs-int-title">Clogged Pipes</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="" class="cs-link cs-active">About</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-laughing.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-laughing.jpg">
+        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-laughing.jpg" alt="people laughing" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+                                
 
-    <!-- ============================================ -->
-    <!--                   Gallery                    -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
 
-    <section id="gallery">
-        <div class="cs-container">
-            <div class="cs-image-group">
-                <!-- Row 1-->
-                <div class="cs-row cs-row-1">
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port1-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port1.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port1.jpg" alt="new hallway" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port4-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port4.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port4.jpg" alt="new home construction" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port7-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port7.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port7.jpg" alt="building a new wall" loading="lazy" width="400" height="560">
-                    </picture>
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                </div>
-                <!-- Row 2 -->
-                <div class="cs-row cs-row-2">
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port2-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port2.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port2.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port5-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port5.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port5.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port8-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port8.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port8.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                </div>
-                <!-- Row 3 -->
-                <div class="cs-row cs-row-3">
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port3-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port3.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port3.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port6-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port6.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port6.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port9-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port9.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port9.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
+<!-- ============================================ 
+    This Stitch is used for content heavy interior pages
+    that have no design or layout.  Often times these are 
+    content silos where you talk extensively about a topic
+    to educate your visitors and rank on Google for the 
+    content.  These are great for pages that have a TON
+    of content.  Design isn't important here, it's all 
+    about making the content accessible and easy to read.
+================================================= -->
 
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+<section id="content-page-1402">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/on-computer2.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/on-computer2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/on-computer2.jpg" alt="people" width="542" height="728">
+                </picture>
+                <div class="cs-box">
+                    <img class="cs-box-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg" alt="people" width="60" height="60">
+                    <span class="cs-desc">
+                        We’ve Over 26 Years of Experience
+                    </span>
                 </div>
             </div>
-            <a href="/contact" class="cs-button-solid">Get Free Quote</a>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trophy.svg" alt="icon" width="32" height="32">
+                        Quality Services
+                    </h3>
+                    <p class="cs-item-text">
+                        There are many variations of but the majority is simply free suffered.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/circle-check.svg" alt="icon" width="32" height="32">
+                        Quality Services
+                    </h3>
+                    <p class="cs-item-text">
+                        There are many variations of but the majority is simply free suffered.
+                    </p>
+                </li>
+            </ul>
         </div>
+        <div class="cs-content">
+            <h1 class="cs-title">h1 - A Personalized Approach To Your <span class="cs-color">Well-Being</span></h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4-6</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laboriosam eum quae in temporibus cumque tempora expedita mollitia nostrum adipisci, ipsum commodi, cupiditate, sequi quos enim! Quaerat esse non sunt! Lorem ipsum dolor sit amet <a href="">link example</a>. Est, quis!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laboriosam eum quae in temporibus cumque tempora expedita mollitia nostrum <strong>adipisci, ipsum commodi</strong>, cupiditate, sequi quos enim! 
+            </p>
+            <h3>Heading 3</h3>
+            <ol>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ol>
+            <h4>Heading 4-6</h4>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
     </section>
 
     {% include 'components/cta.html' %}

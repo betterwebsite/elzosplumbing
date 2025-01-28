@@ -1,5 +1,5 @@
 ---
-title: 'Pixel Perfect Websites | Code Stitch Web Designs | Denver, CO'
+title: 'Pixel Perfect Websites | BetterWebsite.ai Designs | Denver, CO'
 description: 'Meta description for the page'
 preloadImg: '/assets/images/landing.jpg'
 permalink: '/'
@@ -14,6 +14,8 @@ eleventyNavigation:
 {% block head %}
     <link rel="stylesheet" href="/assets/css/local.css"/>
     <link rel="stylesheet" href="/assets/css/critical.css"/>
+    <script defer src="/assets/js/dark.js"></script>
+    <script defer src="/assets/js/nav.js"></script>
 
     <!-- Script for Netlify Identity -->
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -74,315 +76,387 @@ eleventyNavigation:
 
 {% block body %}
 
-    <!-- ============================================ -->
-    <!--                    Hero                      -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
 
-    <section id="hero">
-        <div class="cs-container">
-            <div class="cs-flex-group">
-                <span class="cs-topper">mountain hiking society</span>
-                <h1 class="cs-title">Explore the World with Exciting People</h1>
-                <p class="cs-text">
-                    Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
-                </p>
-                <a href="/about" class="cs-button-solid">Explore More</a>
-                <a href="/contact" class="cs-button-transparent">
-                    <img
-                    class="cs-img"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
-                    alt="play icon"
-                    width="17"
-                    height="17"/>
-                    Get in Touch
-                </a>
-            </div>
-        </div>
+<section id="hero-143">
+    <div class="cs-container">
+        <h1 class="cs-title">Tulsa Plumbing Experts Trusted Solutions for Every Job, Big or Small!</h1>
+        <p class="cs-text">
+            Veteran owned service, repair, and remodel plumber with almost 30 years experience.
+        </p>
+        <a href="/contact" class="cs-button-solid">Request Service</a>
+    </div>
 
-        <!-- Background Image -->
-        <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp">
-            <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/landing.jpg" alt="new home" width="2500" height="1667" loading="eager">
-        </picture>
-    </section>
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/frontpage.jpg">
+        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/frontpage.jpg">
+        <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/frontpage.jpg" alt="kitchen" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
 
-    <!-- ============================================ -->
-    <!--                  Services                    -->
-    <!-- ============================================ -->
 
-    <section id="services" class="services">
-        <!-- Get Icons From flaticon.com -->
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service1.svg"
-                alt="appliance"
-                width="48"
-                height="48"/>
+<!-- ============================================ -->
+<!--                Services Hero                 -->
+<!-- ============================================ -->
+
+<section id="h-services-143">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="/assets/svgs/icon2.svg" alt="icon" width="52" height="52" aria-hidden="true">
             </picture>
-            <h2>Service 1</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service2.svg"
-                alt="appliance"
-                width="48"
-                height="48"/>
-            </picture>
-            <h2>Service 2</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service3.svg"
-                alt="appliance"
-                width="48"
-                height="48"/>
-            </picture>
-            <h2>Service 3</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img 
-                    class="cs-quote-icon"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
-                    alt="gavel"
-                    width="136"
-                    height="77"/>
-                </div>
-                <a href="/about" class="cs-button-solid">More About Us</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--            Extra Content To Rank             -->
-    <!-- ============================================ -->
-
-    <section id="sbs-r">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="560">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="560">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">SEO Ranking</span>
-                <h2 class="cs-title">Talk about a main service keyword</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia eligendi sapiente eos.
-                </p>
-                <a href="/blog" class="cs-button-solid">Read our Blog</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                   Gallery                    -->
-    <!-- ============================================ -->
-
-    <section id="gallery">
-        <div class="cs-container">
-            <span class="cs-topper">Our Portfolio</span>
-            <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
-            <div class="cs-image-group">
-                <!-- Row 1-->
-                <div class="cs-row cs-row-1">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port1-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port1.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port1.jpg" alt="new hallway" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port4-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port4.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port4.jpg" alt="new home construction" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port7-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port7.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port7.jpg" alt="building a new wall" loading="lazy" width="400" height="560">
-                    </picture>
-                </div>
-                <!-- Row 2 -->
-                <div class="cs-row cs-row-2">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port2-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port2.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port2.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port5-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port5.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port5.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port8-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port8.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port8.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-                </div>
-                <!-- Row 3 -->
-                <div class="cs-row cs-row-3">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port3-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port3.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port3.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port6-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port6.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port6.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port9-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port9.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port9.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-
-                </div>
-            </div>
-            <a href="/projects" class="cs-button-solid">View Full Gallery</a>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                   Reviews                    -->
-    <!-- ============================================ -->
-
-    <section id="reviews">
-        <div class="cs-container">
-            <span class="cs-topper">Our Reviews</span>
-            <h2 class="cs-title">Words From Our Customers</h2>
+            <h2 class="cs-title">Water Heater + Installation Repair</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
+                Expert water heater installation and repair services to keep your home running smoothly and efficiently.
             </p>
-            <ul class="cs-card-group">
-                <!-- Review 1 -->
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="/assets/svgs/icon3.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Toilet, shower, and sink installation and
+                repairs.</h2>
+            <p class="cs-text">
+                Professional installation and repair services for toilets, showers, and sinks to ensure perfection.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="/assets/svgs/icon1.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Clogged pipes and
+                drains.</h2>
+            <p class="cs-text">
+                Efficient solutions for clearing clogged pipes and drains, restoring your plumbing to full functionality.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="/assets/svgs/icon4.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Remodel and new
+                construction.</h2>
+            <p class="cs-text">
+                Expert plumbing services for remodels and new construction, bringing your vision to life with precision and care.
+            </p>
+        </li>
+    </ul>
+</section>
+<!-- ============================================ -->
+<!--               Side By Side About Us          -->
+<!-- ============================================ -->
+
+<section id="sbs-1308">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <!--Floating Box-->
+            <div class="cs-box">
+                <span class="cs-desc">Reliable,
+                    Honest, and
+                    Local</span>
+            </div>
+            <!--Image-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/About-us.jpg">
+                <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/About-us.jpg">
+                <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/About-us.jpg" alt="meeting" width="630" height="630" aria-hidden="true">
+            </picture>
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">About Us</span>
+            <h2 class="cs-title">YOUR TRUSTED PLUMBER FOR OVER 30 YEARS</h2>
+            <p class="cs-text">
+                Harry Elzo, owner of Elzo’s Plumbing Co. was born in Tulsa, and raised in Broken Arrow on 110 acres. Harry has more than 30 years of experience in plumbing.
+
+                Harry’s mother was a nurse, and his father was an engineer and an entrepreneur who owned several successful businesses in the Tulsa area.
+                Harry graduated from Broken Arrow High School, as well as Tulsa Vo-Tech. He also attended Oklahoma State University.
+                After high school, Harry proudly served in the US Army (RAKKASAN!!). Harry also has a deep love for auto racing.
+
+                “I’m fiercely, almost dangerously, loyal to my friends and family. I have a sweet wife, 4 intelligent, loving, daughters, 4 hardworking son-in laws and 8 wonderful grandchildren.” - Harry
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="/about">More About Us</a>
+            <ul class="cs-ul">
                 <li class="cs-item">
-                    <img
-                    class="cs-item-img"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
-                    alt="profile picture"
-                    width="80"
-                    height="80"/>
-                    <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span class="cs-reviewer">
-                        Jon Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                    class="cs-item-stars"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                    alt="stars"
-                    width="96"
-                    height="16"/>
+                    <span class="cs-number">30 +</span>
+                    <h3 class="cs-h3">Years of Experience</h3>
                 </li>
-                <!-- Review 2 -->
                 <li class="cs-item">
-                    <img
-                    class="cs-item-img"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
-                    alt="profile picture"
-                    width="80"
-                    height="80"/>
-                    <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
-                    </p>
-                    <span class="cs-reviewer">
-                        Jane Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                    class="cs-item-stars"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                    alt="stars"
-                    width="96"
-                    height="16"/>
+                    <span class="cs-number">400 +</span>
+                    <h3 class="cs-h3">Projects Completed</h3>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">100 +</span>
+                    <h3 class="cs-h3">Tulsa Neighborhoods Covered</h3>
                 </li>
             </ul>
-            <a aria-label="read more reviews" href="/reviews" class="cs-button-solid">Our Reviews</a>
         </div>
-    </section>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-1628">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Our Services</span>
+                <h2 class="cs-title">ELZO'S PLUMPING CO. SERVICES</h2>
+            </div>
+            <p class="cs-text">
+                We provide a full range of plumbing services, including water heater installation and repair, clogged pipe and drain solutions, fixture installations, remodel plumbing, and more. Whether you’re tackling a minor repair or a major renovation, we have the expertise to handle it all. Our skilled team is committed to delivering quality workmanship and reliable solutions every step of the way. Trust us to be your go-to source for all your plumbing needs.
+            </p>
+        </div>                  
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="/waterheater" class="cs-link">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/water-heater.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/water-heater.jpg">
+                        <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/water-heater.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">WATER HEATER + INSTALLATION REPAIR</h3>
+                    <p class="cs-item-text">
+                        Expert water heater installation and repair services to keep your home running smoothly and efficiently.
+                    </p>
+                    <span class="cs-fake-link">
+                        Get Started
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </span>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/project-one" class="cs-link">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/sink-repair.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/sink-repair.jpg">
+                        <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/sink-repair.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">TOILET, SHOWER, AND SINK INSTALLATION AND REPAIRS.</h3>
+                    <p class="cs-item-text">
+                        Professional installation and repair services for toilets, showers, and sinks to ensure perfection.
+                    </p>
+                    <span class="cs-fake-link">
+                        Get Started
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </span>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/project-two" class="cs-link">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/clogged-pipe.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/clogged-pipe.jpg">
+                        <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/clogged-pipe.jpg" alt="room">
+                    </picture>
+                    <h3 class="cs-h3">CLOGGED PIPES AND DRAINS.</h3>
+                    <p class="cs-item-text">
+                        Efficient solutions for clearing clogged pipes and drains, restoring your plumbing to full functionality..
+                    </p>
+                    <span class="cs-fake-link">
+                        Get Started
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </span>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/remodel" class="cs-link">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/remodel.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/remodel.jpg">
+                        <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/remodel.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">REMODEL AND NEW CONSTRUCTION.</h3>
+                    <p class="cs-item-text">
+                        Expert plumbing services for remodels and new construction, bringing your vision to life with precision and care.
+                    </p>
+                    <span class="cs-fake-link">
+                        Get Started
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    Stats                     -->
+<!-- ============================================ -->
+
+<section id="stats-8">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Why Work with Us</span>
+            <h2 class="cs-title">Our Numbers Speak For Themselves</h2>
+            <p class="cs-text">
+                Trusted by hundreds, our proven track record of successful repairs, installations, and satisfied customers shows why we're Tulsa's top choice for plumbing services. See the numbers that set us apart! 
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <span class="cs-number">40+</span>
+                <span class="cs-stat-text">Years Experience</span>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">4</span>
+                <span class="cs-stat-text">Experienced Staff</span>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">100+</span>
+                <span class="cs-stat-text">Happy Clients</span>
+            </li>
+        </ul>
+        <a href="/contact" class="cs-button-solid">Contact Us</a>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg" alt="brick wall" width="1920" height="1282" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-1672">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">Our Customer Reviews</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-flex-group">
+                    <picture class="cs-picture">
+                        <img class="cs-profile" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-headshot1.jpeg" decoding="async" alt="profile" width="50" height="50" aria-hidden="true" loading="lazy">
+                    </picture>
+                    <span class="cs-name">
+                        Misti Blackshire
+                        <span class="cs-job"></span>
+                    </span>
+                </div>
+                <div class="wrapper">
+                    <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/yellow-stars.svg" alt="stars" width="96" height="16">
+                    <p class="cs-review">
+                        Honest, quality work at a fair rate. If you’re looking for a reliable plumber who values both your time and money, I highly recommend Elzo’s. Thankful to have found them.
+                    </p>
+                </div>
+                <!--Quote Icon-->
+                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gray-quote.svg" decoding="async" alt="quote icon" width="120" height="99">
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex-group">
+                    <picture class="cs-picture">
+                        <img class="cs-profile" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/review2.png" decoding="async" alt="profile" width="50" height="50" aria-hidden="true" loading="lazy">
+                    </picture>
+                    <span class="cs-name">
+                        Victoria Davis
+                        <span class="cs-job">Local Guide</span>
+                    </span>
+                </div>
+                <div class="wrapper">
+                    <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/yellow-stars.svg" alt="stars" width="96" height="16">
+                    <p class="cs-review">
+                        Professionalism, honest, and and drizzle of what I order is what I got.
+                    </p>
+                </div>
+                <!--Quote Icon-->
+                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gray-quote.svg" decoding="async" alt="quote icon" width="120" height="99">
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex-group">
+                    <picture class="cs-picture">
+                        <img class="cs-profile" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-headshot2.jpeg" decoding="async" alt="profile" width="50" height="50" aria-hidden="true" loading="lazy">
+                    </picture>
+                    <span class="cs-name">
+                        Dalton Coleman
+                        <span class="cs-job"></span>
+                    </span>
+                </div>
+                <div class="wrapper">
+                    <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/yellow-stars.svg" alt="stars" width="96" height="16">
+                    <p class="cs-review">
+                        Had a main drain back up work was done quickly and professionally. Extremely helpful and friendly problem was resolved perfectly. I was given advice on ways to keep the problem from happening again.
+                    </p>
+                </div>
+                <!--Quote Icon-->
+                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gray-quote.svg" decoding="async" alt="quote icon" width="120" height="99">
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-us-304">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Meet Us</span>
+            <h2 class="cs-title">Our Team Members</h2>
+            <p class="cs-text">
+                Meet the skilled and dedicated team behind our plumbing success! Each member brings years of experience, expertise, and a commitment to providing top-notch service to our customers. Get to know the friendly faces ready to help with all your plumbing needs. 
+            </p>
+            <a href="/about" class="cs-button-solid">More About Us</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-info">
+                    <span class="cs-name">James McGuil</span>
+                    <span class="cs-job">Civil Lawyer</span>
+                </div>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer1-m.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer1.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer1.jpg" alt="lawyer" width="305" height="407">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <div class="cs-info">
+                    <span class="cs-name">Guy Hawkins</span>
+                    <span class="cs-job">Business Lawyer</span>
+                </div>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer2-m.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer2.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer2.jpg" alt="lawyer" width="305" height="407">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <div class="cs-info">
+                    <span class="cs-name">Jente Williams</span>
+                    <span class="cs-job">Partner / Criminal Lawyer</span>
+                </div>
+                <!--Background Image-->
+                <picture class="cs-background">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer3-m.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer3.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/lawyer3.jpg" alt="lawyer" width="305" height="407">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</section>
+                                                              
+                                
 
     {% include 'components/cta.html' %}
 {% endblock %}
